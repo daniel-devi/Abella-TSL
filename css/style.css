@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #303030;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2% 10%;
+}
+
+.nav-head{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+nav p{
+    color: #FFF;
+    font-family: UnifrakturCook;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    user-select: none;
+}
+
+nav a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+#button{
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: #0E67ED;
+    padding: 08px 25px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.background{
+    top: -20%;
+    left: 50%;
+    position: absolute;
+    user-select: none;
+    z-index: -1;
+    width: 50%;
+}
+
+.header{
+    margin: 10% 0 0 0 ;
+}
+
+.header h3{
+    position: relative;
+    top: 10%;
+    left: 15%;
+    margin: 0 0 1% 0 ;
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    user-select: none;
+}
+
+.header pre{
+    position: relative;
+    display: block;
+    top: 30%;
+    left: -10%;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    user-select: none;
+}
+
+#solution{
+    display: inline;
+    color: #0E67ED;
+    font-family: Roboto Serif;
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: 10% 0 0 15%;
+}
+
+#check{
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    user-select: none;
+}
+
+#check img{
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox span{
+    display: block;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    user-select: none;
+}
+
+.about{
+    position: relative;
+    top: 10%;
+    margin: 10% 0 0 0;
+}
+
+.about p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #0E67ED;
+    font-family: Roboto Serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.6%;
+    user-select: none;
+}
+
+.about h3{
+    margin: 5% 0 0 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto Serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
