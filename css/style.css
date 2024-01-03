@@ -161,7 +161,7 @@ nav a{
     color: #FFF;
     text-align: center;
     font-family: Roboto Serif;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -237,7 +237,7 @@ nav a{
 
 #later-text{
     width: 50%;
-    margin: 10% 25% 0;
+    margin: 5% 20% 0;
     color: #FFF;
     font-family: Roboto Serif;
     font-size: 1.3rem;
@@ -260,17 +260,16 @@ nav a{
     display: flex;
     width: 100%;
     margin: 10% 0 0;
-    border: blue solid 1px;
     flex-direction: column;
     column-gap: 1.0rem;
 }
 
 #bgsec1{
     position: absolute;
-    bottom: -135%;
-    left: 65%;
-    width: 20%;
-    height: 50%;
+    bottom: -125%;
+    left: 50%;
+    width: 15%;
+    height: 35%;
     flex-shrink: 0;
     user-select: none;
 }
@@ -278,22 +277,22 @@ nav a{
 #bgsec2{
     position: absolute;
     bottom: -120%;
-    left: 85%;
+    left: 70%;
     width: 15%;
-    height: 50%;
+    height: 60%;
     flex-shrink: 0;
     user-select: none;
 }
 
 .div1,.div2,.div3{
-    width: 50%;
-    margin: 2% 0 2% 2%;
+    width: 55%;
+    margin: 2% 0 2% 10%;
 }
 
 #ht1ag{
     color: #FFF;
     font-family: Roboto Serif;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: lighter;
     line-height: normal;
@@ -309,9 +308,10 @@ nav a{
     line-height: normal;
 }
 
-.div1,.div2,.div3 a{
+.new-sec a{
     position: relative;
-    left: 10%;
+    left: 50%;
+    top: -20%;
     color: #0E67ED;
     font-family: Poppins;
     font-size: 0.6rem;
@@ -324,8 +324,144 @@ nav a{
 #ptag{
     color: #FFF;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 60%;
+    margin: 2% 0 0;
+}
+
+#line-2{
+    display: flex;
+    justify-content: left;
+    width: 60%;
+
+}
+
+#team{
+    margin: 5% 0 0 ;
+    width: 100%;
+}
+
+#team-into{
+    display: flex;
+    color: #0E67ED;
+    font-family: Roboto Serif;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.6%;
+    margin: 0 0 0 10%;
+}
+
+#team h4{
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 1.38rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 136.6%;
+    width: 60%;
+    word-wrap: break-word;
+    margin: 1% 10% 0;
+    word-spacing: 0.1rem;
+    word-break:break-all;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 3% 0 10% 0;
+}
+
+.img-container div:nth-child(1) {
+    margin: 0 2.5% 0 20%;
+}
+
+.img-container div {
+    margin: 0 0 0 2.5% ;
+}
+
+
+.img-container div p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136.6%;
+}
+.img-container div span {
+    color: #FFF;
+    font-family: Roboto Serif;
+    font-size: 0.95rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136.6%;
+}
+
+.portfolio{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+}
+
+.portfolio p{
+    display: flex;
+    justify-content: right;
+    color: #0E67ED;
+    margin: 0 5% 0 0 ;
+    text-align: right;
+    font-family: Roboto Serif;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.6%;
+}
+
+#portfolio{
+    position: relative;
+    left: 40.5%;
+    justify-content: right;
+    color: #FFF;
+    width: 55%;
+    font-family: Roboto Serif;
+    font-size: 1.35rem;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 136.6%;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* 49.176px */  
+}
+
+#new-blue{
+    color: #0E67ED;
+    font-family: Roboto Serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 136.6%;
+}
+
+.arrow{
+    display: flex;
+
+}
+
+#arrow-foward,#arrow-back{
+    width: 2.5%;
+    height: 2.5%;
+}
+
+#arrow-back{
+    position: relative;
+    left: 87%;
+}
+
+#arrow-foward {
+    position: relative;
+    left: 90%;
 }
