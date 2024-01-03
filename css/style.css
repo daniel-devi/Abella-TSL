@@ -465,3 +465,13 @@ nav a{
     position: relative;
     left: 90%;
 }
+
+.pic{
+    display: flex;
+    flex-direction: row;
+}
+
+.pic img{
+    width: 20%;
+    height: 10%;
+}
