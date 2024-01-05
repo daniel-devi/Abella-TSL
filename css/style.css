@@ -494,6 +494,7 @@ nav a{
 
 .form div:nth-child(2) {
     background: #1B1C1E;
+    padding: 5% 0;
 }
 
 .form-writeup h2{
@@ -501,7 +502,7 @@ nav a{
     margin: 10% 15% 0 ;
     color: #FFF;
     font-family: Roboto Serif;
-    font-size: 1.95rem;
+    font-size: 2.52rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -513,9 +514,9 @@ nav a{
     margin: 5% 15% 0;
     color: #FFF;
     font-family: Poppins;
-    font-size: 0.92rem;
+    font-size: 1.1rem;
     font-style: normal;
-    font-weight: 100;
+    font-weight: 000;
     line-height: normal;
     word-wrap: break-word;
 }
@@ -523,9 +524,9 @@ nav a{
 .form-writeup span {
     color: #FFF;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 1.2rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -536,5 +537,34 @@ nav a{
     font-style: normal;
     font-weight: 200;
     line-height: normal;
-    margin: 2% 5% 0;
+    margin: 5% 5% 5%;
 }
+
+#form br{
+    margin: 5% 0;
+}
+
+#form input{
+    width: 70%;
+    height: 5%;
+    margin: 5% 0 5% 5%;
+    flex-shrink: 0;
+    background: #1B1C1E;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #ffffff1a;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#form input button{
+    width: 5%;
+    height: 5%;
+    background-color: #0E67ED;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
